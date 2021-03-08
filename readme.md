@@ -1,0 +1,1 @@
+A sorting visualizer written in the (terrible) programming language ruby using only a terminal
