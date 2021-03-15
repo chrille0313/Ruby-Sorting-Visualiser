@@ -28,7 +28,7 @@ end
 def swap(arr, pos1, pos2)
     arr[pos1], arr[pos2] = arr[pos2], arr[pos1]
     visualize_cmd(arr, 100) #  Draw in cmd
-    #visualizer(arr) # Draw in ruby2d
+    #visualize(arr) # Draw in ruby2d
 end
 
 def partition(arr, low, high)

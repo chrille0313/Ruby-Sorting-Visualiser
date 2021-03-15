@@ -48,6 +48,7 @@ def visualize(numbers, current=0, checking=1, ticks=1)
 
 end
 
+=begin
 numbers = []
 for i in 1..25 - 1 do
     numbers.append(rand(Window.height))
@@ -56,7 +57,7 @@ end
 numbers = numbers.shuffle
 
 visualize(numbers)
-
+=end
 
 # Cmd visualization
 def visualize_cmd(numbers, sleep_time=1)
@@ -76,8 +77,8 @@ def visualize_cmd(numbers, sleep_time=1)
         j = $rows - numbers[i]
 
         while j < $rows - 1
-            #console_rows[j][i] = "█"
-            console_rows[j][i] = "X"
+            console_rows[j][i] = "█"
+            #console_rows[j][i] = "|"
             
             j += 1
         end
